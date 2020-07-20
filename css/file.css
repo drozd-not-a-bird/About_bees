@@ -1,0 +1,25 @@
+body{ margin: 0px; padding: 0px; background-color: rgb(219, 217, 217);}
+#header1{position: relative;   height: 49px;   margin: 20px auto 0px auto; background-color: rgb(240, 234, 234); color: rgb(179, 27, 27);}
+#header1 #logo{position: absolute;  left: 211px; top: 5px; font-size: 33px;}
+#header1 #about{position: absolute; left: 974px;    top: 15px;}
+#header2{margin: 0px auto; background-color: rgb(204, 6, 6);}
+#header2 ul{ height: 50px;  margin: 0px;    margin-left: 210px;    padding: 0px;   list-style-type: none; display: flex;   flex-direction: row;}
+#header2 ul a:link,#header2 ul a:visited{line-height: 50px;   color: white;  text-decoration: none; font-size: 19px; ; padding: 20px 20px 15px 20px;}
+#header2 ul a:hover, #header2 ul a:active,#header2 ul a#active{background-color: rgb(122, 14, 14);}
+#header3{height: 35px;   margin: 0px auto;  background-color: rgb(240, 234, 234);}
+#header3 ul{display: flex;  flex-direction: row;    margin: 0px;    margin-left: 200px;    list-style-type: none;}
+#header3 ul a:link,#header3 ul a:visited{line-height: 30px;   color: rgb(109, 105, 105); padding: 10px 20px; }
+#header3 ul a:hover,#header3 ul a:active{text-decoration: none;}
+#content{background-color: white;   display: flex;  flex-direction: row;    justify-content: center;    text-align: justify;}
+#left{width: 560px;}
+#center{width: 250px;   margin: 0px 20px;   font-size: 13px;}
+#right{width: 250px;    font-size: 13px;}
+h2, h3{margin-top: 40px;    line-height: 0px;}
+h3{font-size: 17px;}
+footer{color: rgb(109, 105, 105);   display: flex;  flex-direction: row;    justify-content: center;}
+footer ul{width: 240px;  list-style-type: none;}
+footer ul li{margin: 10px;}
+footer ul a:link,footer ul a:visited{color: rgb(109, 105, 105);   text-decoration: none;}
+footer ul a:hover, footer ul a:active{text-decoration: underline;}
+footer #foot{width: 900px;   text-align: center;   font-size: 13px;}
+footer #foot p{line-height: 5px;}
